@@ -27,7 +27,7 @@ justify-content: space-around
     font-size:18px;
 }
 .menu-item:hover{
-    color:brown;
+    color:rgb(0, 0, 0);
 }
 .banner-img{
     width: 350px;
@@ -57,4 +57,26 @@ background-repeat: no-repeat;
     border: none;
     color: aliceblue;
     border-radius: 5px;
+}
+
+.about-container{
+    background-color: rgb(147, 197, 197);
+   
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.about-photo{
+    padding: 20px;
+   
+}
+.about-title{
+    font-size: 30px;
+    
 }
